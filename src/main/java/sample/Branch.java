@@ -7,6 +7,7 @@ class Branch {
 
     private ArrayList<BranchSustenanceMeasurement> branchSustenanceMeasurements;
     private ArrayList<BranchPressureDifferenceMeasurement> branchPressureDifferenceMeasurements;
+    private ArrayList<NozzlePositioningMeasurement> nozzlePositioningMeasurements;
     private ArrayList<Nozzle> nozzles;
     private float nozzlesInjectorsCollectiveDeviationFactor;
 
@@ -14,6 +15,7 @@ class Branch {
 
         this.branchSustenanceMeasurements = new ArrayList<BranchSustenanceMeasurement>();
         this.branchPressureDifferenceMeasurements = new  ArrayList<BranchPressureDifferenceMeasurement>();
+        this.nozzlePositioningMeasurements = new ArrayList<NozzlePositioningMeasurement>();
         this.nozzles = new ArrayList<Nozzle>();
     }
 
