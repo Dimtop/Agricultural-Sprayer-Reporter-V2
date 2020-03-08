@@ -1,0 +1,7 @@
+package sample;
+
+
+enum NOZZLE_POSITION_TRANSFORMATION{
+    NONE,
+    EXISTING
+}
