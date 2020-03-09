@@ -9,13 +9,13 @@ class BranchPositioningMeasurement{
     private ArrayList<Float> differencesBetweenPoints; 
     private ArrayList<Float> differenceBetweenPoinDifferenciesAndMaxBranchDistance;
 
-    public BranchPositioningMeasurement(float branchSize,ArrayList<Float> pointDistanceMeasurementsToSet){
+    public BranchPositioningMeasurement(float armSize,ArrayList<Float> pointDistanceMeasurementsToSet){
         
-        if(branchSize<20){
+        if(armSize<20){
             this.maxBranchDistance = 10;
         }
         else{
-            this.maxBranchDistance = (float) Math.floor(branchSize / 2);
+            this.maxBranchDistance = (float) Math.floor(armSize / 2);
         }
         this.pointDistanceMeasurements = pointDistanceMeasurementsToSet;
         this.differencesBetweenPoints = this.calculateDifferencesBetweenPoints();

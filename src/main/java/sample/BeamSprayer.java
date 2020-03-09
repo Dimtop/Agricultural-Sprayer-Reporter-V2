@@ -7,9 +7,9 @@ class BeamSprayer extends Sprayer{
 
     public BeamSprayer(SPRAYER_CATEGORY categoryToSet, SPRAYER_SUBCATEGORY subcategoryToSet, 
                         String manufacturerToSet, String serialNumberToSet, int tankNumberToSet, 
-                        int tankCapacityToSet, int nozzleNumberToSet){
+                        int tankCapacityToSet,SprayerTechnicalReport technicalReportToSet){
 
-        super(categoryToSet,subcategoryToSet,manufacturerToSet,serialNumberToSet,tankCapacityToSet,tankCapacityToSet,nozzleNumberToSet, 2);
+        super(categoryToSet,subcategoryToSet,manufacturerToSet,serialNumberToSet,tankCapacityToSet,tankCapacityToSet,technicalReportToSet);
 
     }
 }

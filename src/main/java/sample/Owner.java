@@ -10,17 +10,15 @@ class Owner {
     private String VATNumber;
     private String phone;
     private String email;
-    private int ownershipPercentage;
     private ArrayList<Sprayer> sprayers;
 
-    public Owner(String fullNameToSet, String fatherNameToSet, String VATNumberToSet, String phoneToSet, String emailToSet, int ownershipPercentageToSet){
+    public Owner(String fullNameToSet, String fatherNameToSet, String VATNumberToSet, String phoneToSet, String emailToSet){
         
         this.fullName = fullNameToSet;
         this.fatherName = fatherNameToSet;
         this.VATNumber = VATNumberToSet;
         this.phone = phoneToSet;
         this.email = emailToSet;
-        this.ownershipPercentage = ownershipPercentageToSet;
         this.sprayers = new ArrayList<Sprayer>();
     }
 }
